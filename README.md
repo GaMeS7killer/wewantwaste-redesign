@@ -1,12 +1,30 @@
-# React + Vite
+# WeWantWaste - Skip Selection Redesign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a full redesign of the “Choose Your Skip Size” page for [WeWantWaste](https://wewantwaste.co.uk), as part of a React front-end coding challenge.
 
-Currently, two official plugins are available:
+## Objective
+Redesign the skip selection page using:
+- Modern, responsive UI with clean UX
+- Fully dynamic data from:
+  `https://app.wewantwaste.co.uk/api/skips/by-location?postcode=NR32&area=Lowestoft`
+- Maintain the functionality of selecting one or more skip sizes
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- ✅ Fully redesigned skip cards
+- ✅ Dynamic skip data fetching
+- ✅ Elegant, dark theme with hover effects
+- ✅ Mobile & desktop responsive layout
+- ✅ "Not allowed on road" warning badges for large skips
+- ✅ Smooth toast notification & selection UI
+- ✅ Built with Vite + React + Tailwind CSS
 
-## Expanding the ESLint configuration
+## Preview
+Include a screenshot or CodeSandbox link (optional).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Live Demo
+[View on CodeSandbox](https://your-sandbox-link.codesandbox.io)
+
+## How to Run Locally
+```bash
+npm install
+npm run dev
